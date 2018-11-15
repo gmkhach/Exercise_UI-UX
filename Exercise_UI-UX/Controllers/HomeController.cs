@@ -13,7 +13,9 @@ namespace Exercise_UI_UX.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-            var model = new NameSelector( "John", "Smith");
+
+            // TODO: loop through dataset and build the NameSelector model
+
             return View();
         }
     }

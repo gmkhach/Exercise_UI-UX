@@ -8,11 +8,11 @@ namespace Exercise_UI_UX.Models
 {
     public class NameSelector
     {
-        public NameSelector(string fName, string lName)
+        public NameSelector(int size)
         {
-            Student = new Student(fName, lName);
+            Students = new Student[size];
         }
 
-        public Student Student { get; set; }
+        public Student[] Students { get; set; }
     }
 }
